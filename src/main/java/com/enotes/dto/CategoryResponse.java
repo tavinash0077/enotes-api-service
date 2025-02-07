@@ -1,0 +1,18 @@
+package com.enotes.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@AllArgsConstructor
+@Setter
+@NoArgsConstructor
+public class CategoryResponse {
+
+    private Integer id;
+    private String name;
+    private String description;
+
+}
